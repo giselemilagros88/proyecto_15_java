@@ -211,36 +211,27 @@ estilos seccion principal
     }
 }
 
-/*media querie para celular version anterior*/
-
-/* y ser una pantalla desde 0 a 768
-@media screen and (max-width: 992px){
-    h1{
-        font-size: 2.4rem;
-    }
-    h2{
-        font-size: 1.8rem;
-    }
-    .sectionTitulos{
-        .contenedorTitulos{
-            width: 90%;
+.footer{
+    nav{
+        ul{
+            list-style: none;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 20px;
+            li{
+                a{
+                    text-decoration: none;
+                    color: var(--main-color);
+                    font-size: 1.4rem;
+                }
+            }
+          
         }
     }
-
-}*/
-/*
-@media screen and (min-width: 769px) and (max-width: 992px){
-    h1{
-        font-size: 2.5rem;
+    .flechaArriba{
+        position:fixed;
+        bottom: 20px;
+        right: 20px;
     }
-    h2{
-        font-size: 1.8rem;
-    }
-
-}*/
-
-/*sintaxis nivel 4 para media querys
-
-@media screen and (width <= 768px){
-   
-}*/
+}
